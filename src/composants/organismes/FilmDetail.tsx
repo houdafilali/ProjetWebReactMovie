@@ -2,7 +2,7 @@ import { BackButton } from "../atomes/Buttons/BackButton";
 import { ImageFilm } from "../atomes/Images/ImageFilm";
 import { ConteneurInfoFilm } from "../molecules/ConteneurInfoFilm";
 import { useParams } from "react-router-dom";
-import { useFetchFilmById } from "../../services/FetchFilmById";
+import { useFetchFilmById } from "../../services/hooks/FetchFilmById";
 
 export function FilmDetail() {
   const { id } = useParams<{ id: string }>();

@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { InfosDB } from "./InfosDB";
+import { InfosDB } from "../InfosDB";
 
 const fetchFilmById = async (id: string) => {
   const response = await fetch(`${InfosDB.apiURL}${id}`, {

@@ -1,8 +1,8 @@
 import { useQuery } from "react-query";
 import axios from "axios";
-import { InfosDB } from "../services/InfosDB";
-import { PTFilm } from "../services/PointDeTerminaison";
-import { Film } from "../interfaces/Film";
+import { InfosDB } from "../InfosDB";
+import { PTFilm } from "../PointDeTerminaison";
+import { Film } from "../../interfaces/Film";
 export const useFetchFilmActuels = () => {
   const apiKey = InfosDB.key;
 

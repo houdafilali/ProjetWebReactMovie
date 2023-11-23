@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useFetchMovieImages } from "../../services/FetchFilmImages";
+import { useFetchMovieImages } from "../../services/hooks/FetchFilmImages";
 import { ImagesScroll } from "../atomes/scroll/ImagesContainer";
 import { Image } from "../atomes/Images/ImagesFilm";
 import { Title } from "../atomes/Titres/TitreImages";

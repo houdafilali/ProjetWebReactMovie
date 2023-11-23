@@ -1,7 +1,7 @@
 import React from "react";
 import { TeteLibrary } from "../composants/molecules/TeteLibrary";
 import { ListeFilm } from "../composants/organismes/ListeFilm";
-import { useFetchFilmActuels } from "../hooks/useFetchFillmsActuels";
+import { useFetchFilmActuels } from "../services/hooks/useFetchFillmsActuels";
 
 export function Library() {
   const { films = [], isError, isLoading } = useFetchFilmActuels();

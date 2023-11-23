@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useFetchFilmCredits } from "../../services/FetchFilmCredits";
+import { useFetchFilmCredits } from "../../services/hooks/FetchFilmCredits";
 import { Credit } from "../atomes/Titres/Credit";
 import { CreditScroll } from "../atomes/scroll/CreditScroll";
 import { ActeurCarte } from "../atomes/Cartes/ActeurCarte";

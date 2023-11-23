@@ -1,7 +1,7 @@
 import { FilmDetail } from "../composants/organismes/FilmDetail";
 import { FilmCredits } from "../composants/organismes/FilmCredits";
 import { FilmImage } from "../composants/organismes/FilmImage";
-import { useFetchFilmById } from "../services/FetchFilmById";
+import { useFetchFilmById } from "../services/hooks/FetchFilmById";
 import { useParams } from "react-router-dom";
 
 export function FilmPage() {
